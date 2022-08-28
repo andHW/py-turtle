@@ -20,7 +20,8 @@ ssize = int(FACE_RADIUS*2.5)
 t.Screen().setup(ssize, ssize)
 t.speed('fastest')
 t.pensize(ssize//75)
-ACCENT_COLOR = 215/255, 15/255, 100/255
+t.colormode(255)
+ACCENT_COLOR = 215, 15, 100
 # ACCENT_COLOR = 40, 240, 155
 
 EAR_RADIUS = FACE_RADIUS//3
